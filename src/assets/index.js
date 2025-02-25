@@ -20,7 +20,7 @@ import oracle from "./oracle.jpg";
 import comicify_ai from "./comicify-ai.png";
 import greentrust from "./green_trust.png";
 import averlon from "./averlon.jpg";
-import devfolio from "./devfolio.png";
+import devfolio from "./softwaresquare.jpg";
 import pgcLogo from "./pgcLogo.png";
 import ethglobal from "./ethglobal.png";
 import polkadot from "./polkadot.jpeg";

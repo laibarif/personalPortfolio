@@ -290,7 +290,7 @@ export const skills = [
         icon: SiJavascript,
         name: "JavaScript",
       },
-      {
+      {         
         id: "pl-11",
         icon: SiSolidity,
         name: "Solidity",
@@ -939,85 +939,88 @@ export const stats = [
 export const extraCurricular = [
   {
     id: 1,
-    organisation: "Devfolio",
-    title: "UniDAO Lead",
-    duration: "December 2021 - Present",
+    organisation: "Software Square",
+    title: "Content Writer",
+    duration: "March 2022 - Feb 2024",
     content: [
       {
-        text: "Selected among 5 students across the country to lead the initiative and grow the culture of Blockchain and Ethereum, powered by Devfolio.",
-        link: "https://www.linkedin.com/feed/update/urn:li:activity:7097977924686942209/",
+        text: "Served Software Square as a Content Writer, the official CS department society at UET Lahore.",
+        link: "https://www.linkedin.com/company/software-square/posts/?feedView=all",
       },
       {
-        text: "Led a cohort of 37 selected students over 6 weeks to learn and build in the Ethereum ecosystem.",
-        link: "https://www.linkedin.com/feed/update/urn:li:activity:7095310520282480641/",
+        text: "Did Content Writting for ITEC’23, ITEC’24 and received a certificate of recognition from the CS department.",
+        link: "https://www.linkedin.com/posts/software-square_a-heartfelt-thank-you-to-our-esteemed-activity-7176838946276925440-_bkg?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD-JAKwBtzK8VI0Hvsbgt8UVN3YPdh0KjDw",
       },
     ],
     logo: devfolio,
   },
   {
     id: 2,
-    organisation: "Google Developer Student Club, NITK",
-    title: "Co-Chair",
-    duration: "December 2021 - Present",
+    organisation: "Zimal UET Lahore",
+    title: "Graphic Designer",
+    duration: "Feb 2022 - Feb 2024",
     content: [
       {
-        text: "Started HackClub to promote and spread the culture of Hackathons in the college. 20+ hackathons particiaptions, 15+ wins over the year.",
-        link: "",
+        text: "Worked as a Graphic Designer at Zimal, UET Lahore’s renowned women’s society, from Aug 2022 to April 2023.p",
+        link: "https://www.linkedin.com/company/zimaluet/posts/?feedView=all",
       },
       {
-        text: "Co-designed and developed the official website of Incident, NITK with 15K+ visitors",
-        link: "https://incident.nitk.ac.in/",
-      },
-    ],
-    logo: gdsc,
-  },
-  {
-    id: 3,
-    organisation: "Genesis, NITK",
-    title: "Competitions Head",
-    duration: "Sep 2021 - Present",
-    content: [
-      {
-        text: "Qualified for the nationals of Indian Hip Hop Dance Championship",
-        link: "",
-      },
-      {
-        text: "Won 7 inter-college solo dance competitions",
-        link: "",
+        text: "Designed posters and digital content while collaborating in a hybrid work environment.",
+        link: "https://www.linkedin.com/posts/zimaluet_zimalsociety-eidmubarak-eidulazha-activity-7208367760312004608-dwAU?utm_source=share&utm_medium=member_desktop&rcm=ACoAABylSogBwwwr7hguF3Meu-CJUhKcLe6FGbQ",
       },
     ],
     logo: genesis,
   },
   {
-    id: 4,
-    organisation: "IRIS, NITK",
-    title: "Tutor",
-    duration: "Jan 2022 - Jan 2022",
+    id: 3,
+    organisation: "SOFTEC'24",
+    title: "Event Manager & Ambassador",
+    duration: "23, 24, 25 Februry, 2024",
     content: [
       {
-        text: "Mentored 150+ students in a month-long Web Development and Ruby on Rails Bootcamp",
-        link: "https://github.com/IRIS-NITK/IRIS-RoR-Bootcamp-2021",
-      },
-    ],
-    logo: iris,
-  },
-  {
-    id: 5,
-    organisation: "E-Cell, NITK",
-    title: "Executive Member",
-    duration: "Sep 2021 - Apr 2022",
-    content: [
-      {
-        text: "Organised the season 3 of the E-Cell NITK Podcast",
-        link: "https://www.youtube.com/watch?v=uA-Yrk6bVDc",
+        text: "Managed and organized SOFTEC’24, Pakistan’s leading tech competition and exhibition, ensuring seamless event execution.",
+        link: "https://www.linkedin.com/company/softecnu/about/",
       },
       {
-        text: "Member of the Sponsorship and E-Talks team for E-Summit'22",
-        link: "",
+        text: "Represented SOFTEC as an Ambassador, promoting participation and engagement from tech communities.",
+        link: "https://www.linkedin.com/in/muqaddasnazeer/recent-activity/all/",
       },
     ],
     logo: ecell,
   },
+  {
+    id: 4,
+    organisation: "Software Square",
+    title: "Event Organizer and Manager",
+    content: [
+      {
+        text: "Organized and managed ITEC’23, ITEC’24 a flagship event of Software Square, UET Lahore, while also contributing as a Content Writer.",
+        link: "https://www.linkedin.com/posts/software-square_itec2023-itec2023-technologyinnovation-activity-7072937324568821760-EPTX?utm_source=share&utm_medium=member_desktop&rcm=ACoAAECu4lYBBz5fz9AVGLvwqRohAqD-bg5xxeA",
+      },
+      {
+        text: "Assisted in social media management and content creation while collaborating in a hybrid work environment.",
+        link: "https://www.linkedin.com/posts/software-square_itec24-techinnovation-guestspeakers-activity-7175324226252357632-2p7W?utm_source=share&utm_medium=member_desktop&rcm=ACoAAECu4lYBBz5fz9AVGLvwqRohAqD-bg5xxeA",
+      },
+    ],
+    logo: devfolio,
+  },
+  {
+    id: 5,
+    organisation: "Zimal UET Lahore",
+    title: "Content Writer",
+    duration: "Feb 2022 - Feb 2024",
+    content: [
+      {
+        text: "Served Zimal also as a Content Writer, the official only women base scoiety in UET.",
+        link: "https://www.linkedin.com/company/zimaluet/posts/?feedView=all",
+      },
+      {
+        text: "Assisted in social media management and content creation while collaborating in a hybrid work environment.",
+        link: "https://www.linkedin.com/posts/zimaluet_girlpower-strongwomen-equalityforall-activity-7191407828119535616-_dXx?utm_source=share&utm_medium=member_desktop&rcm=ACoAABylSogBwwwr7hguF3Meu-CJUhKcLe6FGbQ",
+      },
+    ],
+    logo: genesis,
+ },
 ];
 
 // Links to your social media profiles
@@ -1037,16 +1040,6 @@ export const socialMedia = [
     icon: AiFillMail,
     link: "mailto:laibaslatch@gmail.com",
   },
-  // {
-  //   id: "social-media-4",
-  //   icon: AiOutlineTwitter,
-  //   link: "https://www.twitter.com/mittalparth_",
-  // },
-  // {
-  //   id: "social-media-5",
-  //   icon: AiFillInstagram,
-  //   link: "https://www.instagram.com/mittalparth_",
-  // },
 ];
 
 // Your professional summary
