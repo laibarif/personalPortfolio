@@ -1,5 +1,5 @@
 import parthmittal from "./logo.svg";
-import profilePic from "./profile-pic.jpg";
+import profilePic from "./profile-pic.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import arrowUp from "./arrow-up.svg";
@@ -7,7 +7,6 @@ import uet from "./uet.png";
 import cluboard from "./cluboard.png";
 import cash_flow from "./cash_flow.jpg";
 import ecell from "./ecell.png";
-import gdsc from "./gdsc.png";
 import iris from "./iris.png";
 import genesis from "./genesis.jpg";
 import portfolio from "./portfolio.jpg";
@@ -30,6 +29,7 @@ import manipal from "./manipal.png";
 import icon from "./icon.jpg";
 import ethforall from "./ethforall.png";
 import ethindia from "./ethindia.png";
+import codex from "./codex.png"
 
 export {
   menu,
@@ -38,7 +38,6 @@ export {
   uet,
   cluboard,
   cash_flow,
-  gdsc,
   iris,
   ecell,
   genesis,
@@ -63,5 +62,6 @@ export {
   manipal,
   icon,
   ethforall,
-  ethindia
+  ethindia,
+  codex
 };

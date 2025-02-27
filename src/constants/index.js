@@ -3,7 +3,7 @@ import {
   pgcLogo,
   cluboard,
   cash_flow,
-  gdsc,
+  codex,
   iris,
   ecell,
   genesis,
@@ -961,7 +961,7 @@ export const extraCurricular = [
     duration: "Feb 2022 - Feb 2024",
     content: [
       {
-        text: "Worked as a Graphic Designer at Zimal, UET Lahore’s renowned women’s society, from Aug 2022 to April 2023.p",
+        text: "Worked as a Graphic Designer at Zimal, UET Lahore’s renowned women’s society, from Aug 2022 to Feb 2025.",
         link: "https://www.linkedin.com/company/zimaluet/posts/?feedView=all",
       },
       {
@@ -979,33 +979,50 @@ export const extraCurricular = [
     content: [
       {
         text: "Managed and organized SOFTEC’24, Pakistan’s leading tech competition and exhibition, ensuring seamless event execution.",
-        link: "https://www.linkedin.com/company/softecnu/about/",
+        link: "https://www.linkedin.com/posts/laiba-arif-350b95258_campusambassador-fastdevs-techinnovation-activity-7101607550717980672-20Lh?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD-JAKwBtzK8VI0Hvsbgt8UVN3YPdh0KjDw",
       },
       {
         text: "Represented SOFTEC as an Ambassador, promoting participation and engagement from tech communities.",
-        link: "https://www.linkedin.com/in/muqaddasnazeer/recent-activity/all/",
+        link: "https://www.linkedin.com/posts/activity-7167769734451453954-7osD?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD-JAKwBtzK8VI0Hvsbgt8UVN3YPdh0KjDw",
       },
     ],
     logo: ecell,
   },
   {
     id: 4,
+    organisation: "Codex 2.0",
+    title: "Event Manager & Organizer",
+    duration: "March, 2024",
+    content: [
+      {
+        text: "Managed and organized Codex 2.0, The most exhilarating coding competition of the year.",
+        link: "https://www.linkedin.com/posts/software-square_codex2023-codingchallenge-techinnovation-ugcPost-7122477697653485569-KJks?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD-JAKwBtzK8VI0Hvsbgt8UVN3YPdh0KjDw",
+      },
+      {
+        text: "CODEX is more than just a coding competition; it's a celebration of innovation and received a certificate of recognition from the CS department.",
+        link: "https://www.linkedin.com/in/laiba-arif-350b95258/overlay/1740655104903/single-media-viewer/?profileId=ACoAAD-JAKwBtzK8VI0Hvsbgt8UVN3YPdh0KjDw",
+      },
+    ],
+    logo: codex,
+  },
+  {
+    id: 5,
     organisation: "Software Square",
     title: "Event Organizer and Manager",
     content: [
       {
         text: "Organized and managed ITEC’23, ITEC’24 a flagship event of Software Square, UET Lahore, while also contributing as a Content Writer.",
-        link: "https://www.linkedin.com/posts/software-square_itec2023-itec2023-technologyinnovation-activity-7072937324568821760-EPTX?utm_source=share&utm_medium=member_desktop&rcm=ACoAAECu4lYBBz5fz9AVGLvwqRohAqD-bg5xxeA",
+        link: "https://www.linkedin.com/posts/laiba-arif-350b95258_computerscience-uet-itec2023-activity-7062443945145827329-a5-y?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD-JAKwBtzK8VI0Hvsbgt8UVN3YPdh0KjDw",
       },
       {
         text: "Assisted in social media management and content creation while collaborating in a hybrid work environment.",
-        link: "https://www.linkedin.com/posts/software-square_itec24-techinnovation-guestspeakers-activity-7175324226252357632-2p7W?utm_source=share&utm_medium=member_desktop&rcm=ACoAAECu4lYBBz5fz9AVGLvwqRohAqD-bg5xxeA",
+        link: "https://www.linkedin.com/posts/software-square_the-closing-ceremony-of-itec24-was-honored-activity-7179794278515175425-rxEl?utm_source=share&utm_medium=member_desktop&rcm=ACoAABylSogBwwwr7hguF3Meu-CJUhKcLe6FGbQ",
       },
     ],
     logo: devfolio,
   },
   {
-    id: 5,
+    id: 6,
     organisation: "Zimal UET Lahore",
     title: "Content Writer",
     duration: "Feb 2022 - Feb 2024",
