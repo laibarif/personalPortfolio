@@ -393,104 +393,108 @@ export const skills = [
 // Add your current/past professional work experience here
 export const experiences = [
   {
-    organisation: "Oracle, India",
-    logo: oracle,
-    link: "https://www.oracle.com/in/",
-    positions: [
-      {
-        title: "Member of Technical Staff - 1",
-        duration: "Jul 2024 - Present",
-        content: [
-          {
-            text: "Working in the Database as a Service Control Plane team for Oracle Cloud Infrastructure.",
-            link: "",
-          },
-        ],
-      },
-      {
-        title: "Member of Technical Staff Intern",
-        duration: "May 2023 - Jul 2023",
-        content: [
-          {
-            text: "Worked with the Exadata Cloud@Customer team in the Database Unit.",
-            link: "",
-          },
-          {
-            text: "Wrote APIs in Java to help gracefully migrate a running ExaC@C infrastructure to a new region in the case of a region failure",
-            link: ""
-          }
-        ],
-      },
-    ],
-  },
-  {
-    organisation: "Averlon",
-    logo: averlon,
-    link: "https://averlon.ai/",
-    positions: [
-      {
-        title: "Software Developer Intern",
-        duration: "Sept 2023 - Feb 2024",
-        content: [
-          {
-            text: "Added support for the discoverability of Microsoft Azure assets utilising Go and Gremlin.",
-            link: ""
-          },
-          {
-            text: "Extended support for Azure for reachability analysis of assets for cloud security posture management.",
-            link: ""
-          }
-        ],
-      },
-    ],
-  },
-  {
-    organisation: "IRIS, NITK",
+    organisation: "Neksogix, Austin",
     logo: iris,
-    link: "https://iris.nitk.ac.in/about_us",
+    link: "https://www.neksogix.com/company",
     positions: [
-      {
-        title: "Tech Lead",
-        duration: "Apr 2023 - Apr 2024",
-        content: [
-          {
-            text: "Led a team of 40+ students in digitizing administrative, academic and alumni-related work.",
-            link: "",
-          },
-          {
-            text: "Managed all phases of Software Development Life Cycle (SDLC) for 15+ modules.",
-            link: "",
-          },
-        ],
-      },
+      // {
+      //   title: "Tech Lead",
+      //   duration: "Apr 2023 - Apr 2024",
+      //   content: [
+      //     {
+      //       text: "Led a team of 40+ students in digitizing administrative, academic and alumni-related work.",
+      //       link: "",
+      //     },
+      //     {
+      //       text: "Managed all phases of Software Development Life Cycle (SDLC) for 15+ modules.",
+      //       link: "",
+      //     },
+      //   ],
+      // },
       {
         title: "Web Lead",
-        duration: "Apr 2022 - Present",
+        duration: "Nov 2024 - Present",
         content: [
           {
-            text: "Managed a team of 6 student developers while also overlooking multiple modules.",
+            text: "Led a web development team, overseeing multiple projects from planning to deployment while ensuring high-quality code and timely delivery.",
             link: "",
           },
         ],
       },
       {
         title: "Web Developer",
-        duration: "Nov 2021 - Apr 2022",
+        duration: "Sep 2024 - Present",
         content: [
           {
-            text: "Added Conditional Fields support to the Forms Module.",
+            text: "Designed and developed dynamic websites with a custom UI, ensuring seamless backend integration, optimized performance, and a responsive user experience.",
             link: "",
           },
         ],
       },
       {
         title: "Web Developer Intern",
-        duration: "Jun 2021 - Oct 2021",
+        duration: "Jun 2024 - Aug 2024",
         content: [
           {
-            text: "Developed a multi-role approval flow system to facilitate data collection and display on the Institute's Department Websites.",
+            text: "Assisted in developing and optimizing responsive web applications.",
             link: "",
           },
+        ],
+      },
+      {
+        title: "Business Developer Intern",
+        duration: "Jun 2024 - Oct 2024",
+        content: [
+          {
+            text: "Identified growth opportunities and built client relationships to drive business expansion.",
+            link: "",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    organisation: "TIERS Limited",
+    logo: oracle,
+    link: "https://www.linkedin.com/company/tiers-limited/posts/?feedView=all",
+    positions: [
+      {
+        title: "Full Stack Web Development Intern",
+        duration: "June 2023 – August 2023",
+        content: [
+          {
+            text: "1. Developed Full-Stack Web Applications using HTML, CSS, JavaScript, React, Node.js, Express.js, and MongoDB, ensuring seamless frontend-backend integration.",
+            link: "",
+          },
+          {
+            text: "2. Implemented Key Features, including payment gateway integration, email functionalities, and hosting on platforms like Netlify, 000webhost, and Glitch.com.",
+            link: "",
+          },
+          {
+            text: "3. Demonstrated Strong Problem-Solving & Collaboration Skills, successfully delivering high-quality projects while working in a fast-paced team environment.",
+            link: "",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    organisation: "MLSA",
+    logo: averlon,
+    link: "",
+    positions: [
+      {
+        title: "Microsoft Learn Student Ambassador",
+        duration: "Sept 2023 - Oct 2024",
+        content: [
+          {
+            text: "Served as a Microsoft Learn Student Ambassador, mentoring peers and organizing community-driven workshops.",
+            link: ""
+          },
+          {
+            text: "Led sessions on AI, cloud computing, and Microsoft technologies to help students enhance their technical skills.",
+            link: ""
+          }
         ],
       },
     ],
