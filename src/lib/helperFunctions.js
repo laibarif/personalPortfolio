@@ -1,5 +1,5 @@
 import axios from "axios";
-import { aboutMe, itemsToFetch, includedRepos } from "../constants";
+import { aboutMe} from "../constants";
 
 export const scrollToSection = (id) => {
   const element = document.getElementById(id);
@@ -51,67 +51,67 @@ export async function fetchContributionsWithRetry(maxRetries = 1) {
 }
 
 
-function generatePRQuery(repos, username) {
-  const queries = repos
-    .map((repo) => {
-      return `repo:${repo} is:pr author:${username}`;
-    })
-    .join(" ");
+// function generatePRQuery(repos, username) {
+//   const queries = repos
+//     .map((repo) => {
+//       return `repo:${repo} is:pr author:${username}`;
+//     })
+//     .join(" ");
 
-  return `
-    query {
-      search(query: "${queries}", type: ISSUE, first: ${itemsToFetch}) {
-        nodes {
-          ... on PullRequest {
-            id
-            title
-            state
-            number
-            createdAt
-            url
-            additions
-            deletions
-          }
-        }
-      }
-    }
-  `;
-}
+//   return `
+//     query {
+//       search(query: "${queries}", type: ISSUE, first: ${itemsToFetch}) {
+//         nodes {
+//           ... on PullRequest {
+//             id
+//             title
+//             state
+//             number
+//             createdAt
+//             url
+//             additions
+//             deletions
+//           }
+//         }
+//       }
+//     }
+//   `;
+// }
 
-export async function fetchContributions() {
-  const query = generatePRQuery(includedRepos, aboutMe.githubUsername);
+// // export async function fetchContributions() {
+// //   const query = generatePRQuery(includedRepos, aboutMe.githubUsername);
 
-  try {
-    const response = await axios.post(
-      "https://api.github.com/graphql",
-      { query },
-      {
-        headers: {
-          Authorization: `Bearer ${import.meta.env.VITE_GH_TOKEN}`,
-          "Content-Type": "application/json",
-        },
-      }
-    );
+// //   try {
+// //     const response = await axios.post(
+// //       "https://api.github.com/graphql",
+// //       { query },
+// //       {
+// //         headers: {
+// //           Authorization: `Bearer ${import.meta.env.VITE_GH_TOKEN}`,
+// //           "Content-Type": "application/json",
+// //         },
+// //       }
+// //     );
 
-    const pullRequests = response.data.data.search.nodes;
-    return pullRequests.map((item) => {
-      const { organization, repo, logoUrl } = parseOriginFromUrl(item.url);
-      return {
-        id: item.id,
-        organization,
-        logoUrl,
-        repo,
-        status: item.state,
-        title: item.title,
-        link: item.url,
-        number: item.number,
-        date: new Date(item.createdAt).toLocaleDateString(),
-        linesAdded: item.additions,
-        linesDeleted: item.deletions,
-      };
-    });
-  } catch (error) {
-    console.error("Error Fetching data from Github's GraphQL API: ", error);
-    throw error;
-  }
-}
+// //     const pullRequests = response.data.data.search.nodes;
+// //     return pullRequests.map((item) => {
+// //       const { organization, repo, logoUrl } = parseOriginFromUrl(item.url);
+// //       return {
+// //         id: item.id,
+// //         organization,
+// //         logoUrl,
+// //         repo,
+// //         status: item.state,
+// //         title: item.title,
+// //         link: item.url,
+// //         number: item.number,
+// //         date: new Date(item.createdAt).toLocaleDateString(),
+// //         linesAdded: item.additions,
+// //         linesDeleted: item.deletions,
+// //       };
+// //     });
+// //   } catch (error) {
+// //     console.error("Error Fetching data from Github's GraphQL API: ", error);
+// //     throw error;
+// //   }
+// // }

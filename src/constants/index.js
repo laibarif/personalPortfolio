@@ -111,10 +111,6 @@ export const navLinks = [
     id: "projects",
     title: "Projects",
   },
-  // {
-  //   id: "openSource",
-  //   title: "Open Source",
-  // },
   {
     id: "extraCurricular",
     title: "Extra Curricular",
@@ -1066,9 +1062,3 @@ export const aboutMe = {
     tagLine: "Full Stack Developer | Web Developer @Neksogix",
     intro: "A software engineer from Pakistan who enjoys turning complex problems into simple, efficient solutions through code."
 }
-
-// The maximum number of PRs to be displayed in the Open Source Contributions section.
-export const itemsToFetch = 20;
-
-// Add names of GitHub repos you'd like to display open source contributions from in the 'org/repo' format. 
-export const includedRepos = ['publiclab/plots2', 'zulip/zulip', 'paritytech/polkadot-sdk'];
