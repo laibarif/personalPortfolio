@@ -37,9 +37,18 @@ import {
   AiFillHtml5,
   AiOutlineGitlab,
 } from "react-icons/ai";
-
+import { TbBrandCSharp } from "react-icons/tb";
+import { FaNodeJs,FaServer  } from "react-icons/fa";
 import {
   SiDjango,
+  SiExpress,
+  SiClickup,
+  SiSlack,
+  SiPostgresql,
+  SiJira,
+  SiPhpmyadmin,
+  SiNestjs,
+  SiMongodb,
   SiJavascript,
   SiBootstrap,
   SiReact,
@@ -71,17 +80,20 @@ import {
   SiOpenai,
   SiGooglecloud,
   SiNextdotjs,
-  SiMicrosoftazure
+  SiGithub,
+  SiCsharp,
+  SiHtml5,
+  SiCss3
 } from "react-icons/si";
+
+import {
+  IoIosNotificationsOutline
+} from "react-icons/io";
 
 import {
   FaHardHat,
   FaRust
 } from "react-icons/fa";
-
-import {
-  IoIosNotificationsOutline
-} from "react-icons/io";
 
 import {
   FaGolang
@@ -231,66 +243,40 @@ export const achievements = [
   },
 ];
 
-// Add your software developments skills here for example - programming languages, frameworks etc.
 export const skills = [
   {
     title: "Programming Languages",
     items: [
       {
         id: "pl-1",
-        icon: DiRuby,
-        name: "Ruby",
-      },
-      {
-        id: "pl-2",
         icon: SiPython,
         name: "Python",
       },
       {
-        id: "pl-3",
+        id: "pl-2",
         icon: SiCplusplus,
         name: "C++",
       },
       {
+        id: "pl-3",
+        icon: TbBrandCSharp,
+        name: "C Sharp",
+      },
+      {
         id: "pl-4",
-        icon: FaGolang,
-        name: "Go",
-      },
-      {
-        id: "pl-5",
-        icon: FaRust,
-        name: "Rust",
-      },
-      {
-        id: "pl-6",
-        icon: DiJava,
-        name: "Java",
-      },
-      {
-        id: "pl-7",
-        icon: SiC,
-        name: "C",
-      },
-      {
-        id: "pl-8",
         icon: AiFillHtml5,
         name: "HTML",
       },
       {
-        id: "pl-9",
+        id: "pl-5",
         icon: DiCss3,
         name: "CSS",
       },
       {
-        id: "pl-10",
+        id: "pl-6",
         icon: SiJavascript,
         name: "JavaScript",
       },
-      {         
-        id: "pl-11",
-        icon: SiSolidity,
-        name: "Solidity",
-      }
     ],
   },
   {
@@ -298,53 +284,48 @@ export const skills = [
     items: [
       {
         id: "f-1",
-        icon: SiDjango,
-        name: "Django",
-      },
-      {
-        id: "f-2",
-        icon: SiRubyonrails,
-        name: "Ruby on Rails",
-      },
-      {
-        id: "f-3",
         icon: SiReact,
         name: "ReactJS",
       },
       {
+        id: "f-2",
+        icon: FaNodeJs,
+        name: "Node.js",
+      },
+      {
+        id: "f-3",
+        icon: SiDotnet,
+        name: ".NET",
+      },
+      {
         id: "f-4",
-        icon: SiBootstrap,
-        name: "Bootstrap",
+        icon: SiNestjs,
+        name: "NestJS",
       },
       {
         id: "f-5",
-        icon: SiTailwindcss,
-        name: "Tailwind CSS",
+        icon: SiExpress,
+        name: "Express.js",
       },
       {
         id: "f-6",
-        icon: SiJquery,
-        name: "jQuery",
+        icon: SiDjango,
+        name: "Django",
       },
       {
         id: "f-7",
-        icon: SiGraphql,
-        name: "GraphQL",
-      },
-      {
-        id: "f-8",
-        icon: SiDotnet,
-        name: ".NET",
+        icon: SiBootstrap,
+        name: "Bootstrap",
       },
     ],
   },
   {
-    title: "Tools",
+    title: "Databases",
     items: [
       {
         id: "t-1",
-        icon: SiMicrosoftazure,
-        name: "Azure",
+        icon: SiMongodb,
+        name: "Mongodb",
       },
       {
         id: "t-2",
@@ -352,29 +333,49 @@ export const skills = [
         name: "MySQL",
       },
       {
-        id: "t-3",
-        icon: SiPostman,
-        name: "Postman",
+        id: "t-2",
+        icon: SiPostgresql,
+        name: "PostgreSQL",
       },
+    ],
+  },
+  {
+    title: "Tools & Platforms",
+    items: [
       {
-        id: "t-4",
+        id: "t-1",
         icon: SiVisualstudiocode,
         name: "VS Code",
       },
       {
-        id: "t-5",
+        id: "t-2",
         icon: SiGit,
         name: "Git",
       },
       {
-        id: "t-6",
+        id: "t-3",
         icon: AiFillGithub,
         name: "GitHub",
       },
       {
+        id: "t-4",
+        icon: SiPostman,
+        name: "Postman",
+      },
+      {
+        id: "t-5",
+        icon: FaServer,
+        name: "Hostinger",
+      },
+      {
+        id: "t-6",
+        icon: SiFigma,
+        name: "Figma",
+      },
+      {
         id: "t-7",
-        icon: AiOutlineGitlab,
-        name: "Gitlab",
+        icon: SiClickup,
+        name: "Clickup",
       },
       {
         id: "t-8",
@@ -383,8 +384,13 @@ export const skills = [
       },
       {
         id: "t-9",
-        icon: SiVite,
-        name: "ViteJS",
+        icon: SiSlack,
+        name: "Slack",
+      },
+      {
+        id: "t-10",
+        icon: SiJira,
+        name: "Jira",
       },
     ],
   },
@@ -397,20 +403,6 @@ export const experiences = [
     logo: iris,
     link: "https://www.neksogix.com/company",
     positions: [
-      // {
-      //   title: "Tech Lead",
-      //   duration: "Apr 2023 - Apr 2024",
-      //   content: [
-      //     {
-      //       text: "Led a team of 40+ students in digitizing administrative, academic and alumni-related work.",
-      //       link: "",
-      //     },
-      //     {
-      //       text: "Managed all phases of Software Development Life Cycle (SDLC) for 15+ modules.",
-      //       link: "",
-      //     },
-      //   ],
-      // },
       {
         title: "Web Lead",
         duration: "Nov 2024 - Present",
