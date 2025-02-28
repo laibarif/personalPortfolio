@@ -8,9 +8,7 @@ import Projects from "./Projects";
 import ExtraCurricular from "./ExtraCurricular";
 import Footer from "./Footer";
 import Button from "./Button";
-import Stats from "./Stats";
 import Loading from "./Loading";
-import BlogPosts from "./BlogPosts";
 import Achievements from "./Achievements";
 
 
@@ -23,8 +21,6 @@ export {
     ExtraCurricular,
     Footer,
     Button,
-    Stats,
     Loading,
-    BlogPosts,
     Achievements,
 };

@@ -38,8 +38,8 @@ import {
   AiFillHtml5,
   AiOutlineGitlab,
 } from "react-icons/ai";
-import { TbBrandCSharp } from "react-icons/tb";
-import { FaNodeJs, FaServer } from "react-icons/fa";
+import { TbBrandCSharp,TbBrandGoogleMaps } from "react-icons/tb";
+import { FaNodeJs, FaServer,FaJava,FaAndroid } from "react-icons/fa";
 import {
   SiDjango,
   SiExpress,
@@ -47,6 +47,8 @@ import {
   SiSlack,
   SiPostgresql,
   SiJira,
+  SiPandas,
+  SiNumpy,
   SiPhpmyadmin,
   SiNestjs,
   SiMongodb,
@@ -484,12 +486,11 @@ export const experiences = [
 export const projects = [
   {
     id: "project-1",
-    title: "Comicify.ai",
-    github: "https://github.com/ayush4345/Comicify.ai",
-    link: "https://comicify-ai.vercel.app/",
+    title: "The Exporter's Loom",
+    github: "https://github.com/KhadimHussainDev/TheExportersLoom-Apis",
     image: comicify_ai,
     content:
-      "Convert any academic/news/boring text into cool comic strips using GPT-3.5 and Stable Diffusion!",
+      "A mobile application that connects skilled workers with potential clients, offering seamless job listings, booking, and service management for an efficient and reliable hiring experience.!",
     stack: [
       {
         id: "icon-1",
@@ -498,420 +499,199 @@ export const projects = [
       },
       {
         id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS"
+        icon: SiNestjs,
+        name: "NestJS"
       },
       {
         id: "icon-3",
-        icon: SiOpenai,
-        name: "OpenAI"
+        icon: SiPostgresql,
+        name: "PostgreSQL"
       },
       {
         id: "icon-4",
-        icon: SiGooglecloud,
-        name: "Google Cloud Platform"
+        icon: SiFigma,
+        name: "Figma"
       },
       {
         id: "icon-5",
-        icon: SiFlask,
-        name: "Flask"
+        icon: SiJira,
+        name: "Jira"
+      },
+      {
+        id: "icon-6",
+        icon: SiVisualstudiocode,
+        name: "Visual Studio"
       },
     ],
   },
   {
     id: "project-2",
-    title: "GreenTrust",
-    github: "https://github.com/mittal-parth/GreenTrust",
-    link: "https://green-trust-fantom.netlify.app/",
-    image: greentrust,
-    content:
-      "Winning project at 3 hackathons, GreenTrust offers a novel solution for obtaining certification in organic farming by organizing credible and decentralized Participatory Guarantee Systems (PGSs).",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React"
-      },
-      {
-        id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS"
-      },
-      {
-        id: "icon-3",
-        icon: SiNextdotjs,
-        name: "Next.js"
-      },
-      {
-        id: "icon-4",
-        icon: SiIpfs,
-        name: "IPFS"
-      },
-      {
-        id: "icon-5",
-        icon: SiSolidity,
-        name: "Solidity"
-      },
-      {
-        id: "icon-6",
-        icon: IoIosNotificationsOutline,
-        name: "Push Protocol"
-      },
-    ],
-  },
-  {
-    id: "project-3",
-    title: "ChargeSwap",
-    github: "https://github.com/CommanderAstern/ChargeSwap",
-    link: "https://devfolio.co/projects/chargeswap-3527",
-    image: chargeswap,
-    content:
-      "A Blockchain-based EV-Battery swapping solution - winning project at ETHIndia'22, the world's largest Ethereum Hackathon",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React"
-      },
-      {
-        id: "icon-3",
-        icon: SiWeb3Dotjs,
-        name: "Web3.js"
-      },
-      {
-        id: "icon-4",
-        icon: SiSolidity,
-        name: "Solidity"
-      },
-      {
-        id: "icon-5",
-        icon: FaHardHat,
-        name: "HardHat"
-      },
-      {
-        id: "icon-6",
-        icon: SiIpfs,
-        name: "IPFS"
-      },
-      {
-        id: "icon-7",
-        icon: SiArduino,
-        name: "Arduino"
-      },
-      {
-        id: "icon-8",
-        icon: IoIosNotificationsOutline,
-        name: "Push Protocol"
-      },
-    ],
-  },
-  {
-    id: "project-4",
-    title: "Samsotech Table Management System",
-    github: "",
-    link: "https://www.linkedin.com/posts/mittal-parth_technologysolutions-softwaredevelopment-technology-activity-6994915645066809344-WnMY?utm_source=share&utm_medium=member_desktop",
-    image: placeicon,
-    content:
-      "Restaurant, Place, Table and realtime Reservation Management with Multi-Tenant Architecture, RBAC, SMS and Email integration for Samsotech International",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiDotnet,
-        name: "Dot Net Core MVC 6"
-      },
-      {
-        id: "icon-2",
-        icon: SiBootstrap,
-        name: "Bootstrap"
-      },
-      {
-        id: "icon-3",
-        icon: DiMsqlServer,
-        name: "MS Sql Server"
-      },
-      {
-        id: "icon-4",
-        icon: SiJquery,
-        name: "jQuery"
-      },
-      {
-        id: "icon-5",
-        icon: SiTwilio,
-        name: "Twillio"
-      },
-    ],
-  },
-  {
-    id: "project-5",
-    title: "Non-Teaching Recruitment Portal, NITK",
-    github: "",
-    link: "http://recruitment.nitk.ac.in/",
+    title: "Location Finder App",
+    github: "https://github.com/laibarif/LocationFinderApp",
+    link: "https://youtu.be/hOi0M_I-tPA?si=pRZyK94XjkVvHwqQ",
     image: recruitment,
     content:
-      "The official recruitment portal for non-teaching staff with an admin panel, email notifications and payment integration.",
+      "Location Finder App is a user-friendly application designed to help users determine their real-time location with precision. Featuring an intuitive interface, the app provides accurate geolocation services, making navigation easier and more efficient.",
     stack: [
       {
         id: "icon-1",
-        icon: SiRubyonrails,
-        name: "Ruby on Rails"
+        icon: FaJava,
+        name: "Java"
       },
       {
         id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS"
+        icon: FaAndroid,
+        name: "Andriod Studio"
       },
       {
         id: "icon-3",
-        icon: SiJquery,
-        name: "jQuery"
-      },
-    ],
-  },
-  {
-    id: "project-6",
-    title: "Career Development Centre, NITK Website",
-    github: "",
-    link: "http://cdc.nitk.ac.in/",
-    image: cdc,
-    content:
-      "The official website of CDC, NITK with a custom built CMS.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiRubyonrails,
-        name: "Ruby on Rails"
-      },
-      {
-        id: "icon-2",
-        icon: SiBootstrap,
-        name: "Bootstrap"
-      },
-      {
-        id: "icon-3",
-        icon: SiJavascript,
-        name: "JavaScript"
-      },
-    ],
-  },
-  {
-    id: "project-7",
-    title: "Huntly",
-    github: "",
-    link: "https://devfolio.co/projects/huntly-b5a9",
-    image: huntly,
-    content:
-      "A cross-platform mobile application that brings people closer to the physical environment and forms meaningful connections by organising real-world Treasure Hunts for free and winning rewards. The app uses machine learning to match users and form teams of like-minded people.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiDjango,
-        name: "Django Rest Framework"
-      },
-      {
-        id: "icon-2",
-        icon: SiFlutter,
-        name: "Flutter"
-      },
-      {
-        id: "icon-3",
-        icon: SiReplit,
-        name: "Replit"
-      },
-      {
-        id: "icon-4",
-        icon: SiFlask,
-        name: "Flask"
-      },
-      {
-        id: "icon-5",
-        icon: SiFigma,
-        name: "Figma"
-      },
-      {
-        id: "icon-6",
-        icon: SiGooglemaps,
+        icon: TbBrandGoogleMaps,
         name: "Google Maps API"
       },
     ],
   },
   {
-    id: "project-8",
-    title: "Cluboard",
-    github: "https://github.com/mittal-parth/Cluboard",
-    link: "",
-    image: cluboard,
+    id: "project-3",
+    title: "Selective Exam",
+    github: "https://github.com/laibarif/Selectively",
+    link: "https://selectiveexam.com.au/",
+    image: chargeswap,
     content:
-      "A full-stack web application to facilitate sharing resources in college clubs with email notifications, requests and ticketing system, and analytical dashboards.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiDjango,
-        name: "Django"
-      },
-      {
-        id: "icon-2",
-        icon: AiFillHtml5,
-        name: "HTML"
-      },
-      {
-        id: "icon-3",
-        icon: DiCss3,
-        name: "CSS"
-      },
-      {
-        id: "icon-4",
-        icon: SiJavascript,
-        name: "JavaScript"
-      },
-      {
-        id: "icon-5",
-        icon: SiBootstrap,
-        name: "Bootstrap"
-      },
-      {
-        id: "icon-6",
-        icon: SiChartdotjs,
-        name: "Chart.js"
-      },
-    ],
-  },
-  {
-    id: "project-9",
-    title: "Cash Flow Minimiser",
-    github: "https://github.com/mittal-parth/Cash-Flow-Minmiser",
-    link: "https://minimise-cash-flow.netlify.app/",
-    image: cash_flow,
-    content:
-      "A React application to help users visualise and minimise cash flow among multiple transactions.",
+      "Developed and hosted the official website for Selective Exam, an online platform offering free assessments in Reading, Mathematical Reasoning, and Thinking Skills. The site provides users with an interactive interface to practice and enhance their skills in preparation for selective school examinations.",
     stack: [
       {
         id: "icon-1",
         icon: SiReact,
-        name: "React"
-      },
-      {
-        id: "icon-2",
-        icon: AiFillHtml5,
-        name: "HTML"
-      },
-      {
-        id: "icon-3",
-        icon: DiCss3,
-        name: "CSS"
-      }
-    ],
-  },
-  {
-    id: "project-10",
-    title: "Portfolio",
-    github: "https://github.com/mittal-parth/personal-portfolio",
-    link: "https://parthmittal.netlify.app/",
-    image: portfolio,
-    content: "Personal portfolio website with React and Tailwind CSS.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React"
+        name: "ReactJS"
       },
       {
         id: "icon-2",
         icon: SiTailwindcss,
-        name: "Tailwind CSS"
+        name: "TailwindCSS"
       },
       {
         id: "icon-3",
-        icon: AiFillHtml5,
-        name: "HTML"
-      },
-    ],
-  },
-];
-
-// Add links to blogs here
-export const blogPosts = [
-  {
-    id: "post-1",
-    title: "Blog Post 01 - Title",
-    link: "#",
-    date: new Date().toLocaleDateString(), // Can be edited to any string format
-    image: "https://via.placeholder.com/600/92c952",
-    tags: [
-      {
-        id: "tag-1",
-        name: "tag 01"
+        icon: FaNodeJs,
+        name: "Node.js"
       },
       {
-        id: "tag-2",
-        name: "tag 03"
+        id: "icon-4",
+        icon: SiMysql,
+        name: "MySQL"
       },
       {
-        id: "tag-3",
-        name: "tag 03"
+        id: "icon-5",
+        icon: FaServer,
+        name: "Hostinger",
       },
     ],
   },
   {
-    id: "post-2",
-    title: "Blog Post 02 - Title",
-    link: "#",
-    date: new Date().toLocaleDateString(),
-    image: "https://via.placeholder.com/600/d32776",
-    tags: [
+    id: "project-4",
+    title: "BPB Community",
+    github: "https://github.com/laibarif/aiville",
+    link: "https://bpbcommunity.com/",
+    image: placeicon,
+    content:
+      "Developed and hosted the official website for BPB Community, a platform dedicated to providing resources and support for individuals living with mental disorders and their supporters. The site offers a space for community engagement, sharing experiences, and accessing valuable information to foster understanding and support.",
+    stack: [
       {
-        id: "tag-1",
-        name: "tag 01"
+        id: "icon-1",
+        icon: SiReact,
+        name: "ReactJS"
       },
       {
-        id: "tag-2",
-        name: "tag 03"
+        id: "icon-2",
+        icon: SiTailwindcss,
+        name: "TailwindCSS"
       },
       {
-        id: "tag-3",
-        name: "tag 03"
-      },
-    ],
-  },
-  {
-    id: "post-3",
-    title: "Blog Post 03 - Title",
-    link: "#",
-    date: new Date().toLocaleDateString(),
-    image: "https://via.placeholder.com/600/771796",
-    tags: [
-      {
-        id: "tag-1",
-        name: "tag 01"
+        id: "icon-3",
+        icon: SiDjango,
+        name: "Django"
       },
       {
-        id: "tag-2",
-        name: "tag 03"
+        id: "icon-4",
+        icon: SiMysql,
+        name: "MySQL"
       },
       {
-        id: "tag-3",
-        name: "tag 03"
+        id: "icon-5",
+        icon: FaServer,
+        name: "Hostinger",
       },
     ],
   },
-];
-
-// Highlight your GitHub stats like - Organisation, Issues Opened, Pull Requests etc.
-export const stats = [
   {
-    id: "stats-1",
-    title: "Organisations",
-    value: "2+",
+    id: "project-5",
+    title: "Blessed By PBA",
+    github: "https://github.com/laibarif/Rajeev_Project",
+    link: "https://blessedbypba.org/",
+    image: greentrust,
+    content:
+      "Developed and hosted the official website for Blessed By PBA, providing comprehensive property details in Australia. The platform offers users an intuitive interface to explore various property listings, enhancing their real estate search experience.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiReact,
+        name: "ReactJS"
+      },
+      {
+        id: "icon-2",
+        icon: SiTailwindcss,
+        name: "TailwindCSS"
+      },
+      {
+        id: "icon-3",
+        icon: FaNodeJs,
+        name: "Node.js"
+      },
+      {
+        id: "icon-4",
+        icon: SiMysql,
+        name: "MySQL"
+      },
+      
+    ],
   },
   {
-    id: "stats-2",
-    title: "Issues Opened",
-    value: "6+",
+    id: "project-6",
+    title: "Wifi-Destroyer",
+    github: "https://github.com/laibarif/WIFI-destroyer-IS",
+    link: "https://www.linkedin.com/posts/activity-7194637971914928131-zOeN?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD-JAKwBtzK8VI0Hvsbgt8UVN3YPdh0KjDw",
+    image: ethglobal,
+    content:
+      "Developed WiFi Destroyer which is network management tool designed to monitor connected devices, disconnect unauthorized users, and provide real-time WiFi status updates. The project aims to empower network administrators with efficient management and security features for optimal performance.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiFlask,
+        name: "Flask"
+      },
+      {
+        id: "icon-3",
+        icon: SiPython,
+        name: "Python"
+      },
+      {
+        id: "icon-4",
+        icon: SiPandas,
+        name: "Pandas"
+      },
+      {
+        id: "icon-5",
+        icon: SiNumpy,
+        name: "Numpy"
+      },
+      {
+        id: "icon-6",
+        icon: SiVisualstudiocode,
+        name: "Visual Studio Code"
+      },
+      
+    ],
   },
-  {
-    id: "stats-3",
-    title: "Pull Requests",
-    value: "6+",
-  },
+  
 ];
 
 // List out the extra curricular activities you have induldged in like - student clubs, joining research groups etc.

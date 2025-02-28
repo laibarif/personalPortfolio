@@ -10,7 +10,6 @@ import {
   ExtraCurricular,
   Footer,
   Projects,
-  BlogPosts,
   Loading,
   Achievements,
 } from "./components";
@@ -63,7 +62,6 @@ const App = () => {
             >
               <div className={`${styles.boxWidth}`}>
                 <Projects />
-                <BlogPosts enabled={false} />
                 <ExtraCurricular />
               </div>
             </div>
