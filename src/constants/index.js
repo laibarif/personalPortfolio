@@ -25,7 +25,8 @@ import {
   manipal,
   icon,
   ethforall,
-  ethindia
+  ethindia,
+  utc
 } from "../assets";
 
 import {
@@ -38,7 +39,7 @@ import {
   AiOutlineGitlab,
 } from "react-icons/ai";
 import { TbBrandCSharp } from "react-icons/tb";
-import { FaNodeJs,FaServer  } from "react-icons/fa";
+import { FaNodeJs, FaServer } from "react-icons/fa";
 import {
   SiDjango,
   SiExpress,
@@ -154,92 +155,68 @@ export const educationList = [
   },
 ];
 
-// Add your past achievments here for example - rankings in hackathons/events
 export const achievements = [
   {
     id: "a-1",
-    icon: ethindia,
-    event: "ETHIndia'24 | India's Largest Ethereum Hackathon",
-    position: "Winner",
-    content1: "True Network's Winner, Polkadot's 1st Runner Up",
-    content2: "Lit Protocol's 2nd Runner Up",
-    content3: "Coinbase Pool Prize, Base Top 10",
-    article: "https://www.linkedin.com/posts/mittal-parth_super-stoked-to-announce-that-our-team-emerged-activity-7274735259621961729-tkq4?utm_source=share&utm_medium=member_desktop",
-    project: "https://devfolio.co/projects/khoj-3336",
-    youtube: "https://www.youtube.com/live/qJ4OCtnvjUY?si=VkcnHEdwJTEEDlMg&t=4718",
+    icon: uet,
+    event: "ITEC'25 | UET Lahore's Premier IT Competition",
+    position: "Participant",
+    content1: "Project Exhibition Module",
+    content2: "Recognized for participation in Pakistan's leading tech event at UET Lahore",
+    content3: "Showcased an innovative project in the Project Exhibition Module",
+    article: "",
+    project: "https://drive.google.com/file/d/1SO95AkG77uQyjy5rLZq1Bt_RJFy6tVZQ/view?usp=sharing",
   },
   {
     id: "a-2",
     icon: ethglobal,
-    event: "ETHIndia'22 | World's Largest Ethereum Hackathon",
-    position: "Winner",
-    content1: "Top 12 winners among 20k+ registrations",
-    content2: "One of Polygon's Best Public Goods",
-    content3: "Best Module on Biconomy SDK",
-    article: "https://www.thehindu.com/news/cities/Mangalore/nitk-iiit-delhi-team-makes-it-to-top-12-winners-in-ethindia-22/article66238923.ece",
-    project: "https://devfolio.co/projects/chargeswap-3527",
-    youtube: "https://youtu.be/9rieTya8Yds?t=3908",
+    event: "Tiers Limited | MERN Stack Web Development Internship",
+    position: "Intern – MERN Stack Developer",
+    content1: "Successfully completed a 2-month internship focused on MERN Stack development.",
+    content2: "Worked on MongoDB, Express.js, React.js, and Node.js, building full-stack web applications.",
+    content3: "Gained hands-on experience in web hosting and deployment using Netlify, Glitch, and 000webhost.",
+    project: "https://www.linkedin.com/feed/update/urn:li:activity:7098568867332919297/",
   },
   {
     id: "a-3",
-    icon: polkadot,
-    event: "Polkadot Hackathon: Europe Edition",
-    position: "2nd Runner Up in the ink! Smart Contract Category",
-    content1: "Built GreenTrust offering a novel solution for obtaining certification in organic farming.",
-    content2: "",
-    content3: "",
-    github: "https://github.com/pranav2305/GreenTrust",
+    icon: dennisivy,
+    event: "HackerRank | SQL Certification",
+    position: "Certified (Basic, Intermediate & Advanced)",
+    content1: "Successfully cleared the SQL (Basic) assessment, validating fundamental database querying skills.",
+    content2: "Achieved certification in SQL (Advanced), demonstrating expertise in complex queries, performance optimization, and advanced database techniques.",
+    content3: "Strengthened my proficiency in relational databases, enhancing my ability to work with large-scale data efficiently.",
+    project: "https://www.hackerrank.com/certificates/78c28d556299",
+    article: "https://www.hackerrank.com/certificates/f1543157cc75",
+  },
+  {
+    id: "a-5",
+    icon: averlon,
+    event: "GDSC KIIT x DevTown | DevOps for Web Development Bootcamp",
+    position: "Participant (7-Day Bootcamp)",
+    content1: "Successfully completed an intensive 7-day bootcamp on DevOps for Web Development.",
+    content2: "Hands-on experience with DevOps tools and best practices for scalable web applications.",
+    content3: "Gained valuable insights into modern DevOps practices and web deployment strategies.",
+    project: "https://drive.google.com/file/d/1p5vbTTHX344R3EQWXQ-ZWQaKSdGmLAZu/view?usp=sharing",
   },
   {
     id: "a-4",
     icon: lightspeed,
-    event: "Warpspeed by Lightspeed",
-    position: "1st Runner Up",
-    content1: "1st Runner Up Overall by Lightspeed among 107 hackers",
-    content2: "Top 3 projects using Replit",
-    content3: "1st Runner Up by Amazon Web Services (AWS)",
-    article: "https://shorturl.at/fhjsT",
+    event: "Genese Academy | Freelancing Workshop",
+    position: "Participant (3-Day Workshop)",
+    content1: "Successfully attended a 3-day intensive workshop on Freelancing.",
+    content2: "Explored essential freelancing skills, marketplace strategies, and client management techniques.",
+    content3: "Gained valuable insights into building a successful career in the freelance industry.",
+    project: "https://drive.google.com/file/d/1t6e1psubYTcsm_E0sJwCui11rfVbAXCq/view?usp=sharing",
   },
   {
     id: "a-5",
-    icon: dennisivy,
-    event: "September Hackathon by Dennis Ivy",
-    position: "Winner",
-    content1: "Rated the best portfolio website among 450+ participants across the globe.",
-    content2: "",
-    content3: "",
-    youtube: "https://www.youtube.com/watch?v=X2473En3h_o&t=5278s",
-    project: "https://parthmittal.netlify.app/",
-  },
-  {
-    id: "a-6",
-    icon: manipal,
-    event: "Manipal Hackathon'22",
-    position: "Consolation Prize",
-    content1: "Top 10 among 500+ teams across India",
-    content2: "Developed a cross-platform mobile application to address the problem of social cohesion.",
-    content3: "",
-    article: "https://shorturl.at/exEIQ",
-  },
-  {
-    id: "a-7",
-    icon: icon,
-    event: "ICON Hyperbuild Hackathon",
-    position: "Honorable Mention",
-    content1: "Honorable Mention among 655 participants across the globe in a 3 month-long online hackathon.",
-    content2: "",
-    content3: "",
-    project: "https://devpost.com/software/green-trust-xj2w6g",
-  },
-  {
-    id: "a-8",
-    icon: ethforall,
-    event: "ETHForAll 2023",
-    position: "Top 3 Superfluid Projects",
-    content1: "Bounty winners among 430 projects in ETHGlobal's largest online hackathon.",
-    content2: "",
-    content3: "",
-    project: "https://devfolio.co/projects/green-trust-ed14",
+    icon: utc,
+    event: "TechXplore’23 | Ultimate Tech Crew",
+    position: "Participant (Online Event)",
+    content1: "Successfully attended TechXplore’23, an online event by Ultimate Tech Crew.",
+    content2: "Gained insights into emerging technologies and industry best practices.",
+    content3: "Explored sessions on Generative AI, DevOps, Career Development, and Security on Google Cloud.",
+    project: "https://drive.google.com/file/d/15lLYWqdEj-jRXd90BRz0JPgoiRsMB1he/view?usp=sharing",
   },
 ];
 
@@ -1029,7 +1006,7 @@ export const extraCurricular = [
       },
     ],
     logo: genesis,
- },
+  },
 ];
 
 // Links to your social media profiles
@@ -1053,8 +1030,8 @@ export const socialMedia = [
 
 // Your professional summary
 export const aboutMe = {
-    name: "Laiba Arif",
-    githubUsername: 'laibarif',
-    tagLine: "Full Stack Developer | Web Developer @Neksogix",
-    intro: "A software engineer from Pakistan who enjoys turning complex problems into simple, efficient solutions through code."
+  name: "Laiba Arif",
+  githubUsername: 'laibarif',
+  tagLine: "Full Stack Developer | Web Developer @Neksogix",
+  intro: "A software engineer from Pakistan who enjoys turning complex problems into simple, efficient solutions through code."
 }

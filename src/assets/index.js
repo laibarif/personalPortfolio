@@ -1,4 +1,4 @@
-import parthmittal from "./logo.svg";
+import parthmittal from "./logo.png";
 import profilePic from "./profile-pic.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -19,6 +19,7 @@ import oracle from "./tiers.jpg";
 import comicify_ai from "./comicify-ai.png";
 import greentrust from "./green_trust.png";
 import averlon from "./mlsa.jpeg";
+import utc from "./utc.jpg";
 import devfolio from "./softwaresquare.jpg";
 import pgcLogo from "./pgcLogo.png";
 import ethglobal from "./ethglobal.png";
@@ -63,5 +64,6 @@ export {
   icon,
   ethforall,
   ethindia,
-  codex
+  codex,
+  utc
 };
