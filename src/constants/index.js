@@ -553,7 +553,7 @@ export const projects = [
   {
     id: "project-3",
     title: "Selective Exam",
-    github: "https://github.com/laibarif/Selectively",
+    // github: "https://github.com/laibarif/Selectively",
     link: "https://selectiveexam.com.au/",
     image: chargeswap,
     content:
@@ -589,7 +589,7 @@ export const projects = [
   {
     id: "project-4",
     title: "BPB Community",
-    github: "https://github.com/laibarif/aiville",
+    // github: "https://github.com/laibarif/aiville",
     link: "https://bpbcommunity.com/",
     image: placeicon,
     content:
@@ -625,7 +625,7 @@ export const projects = [
   {
     id: "project-5",
     title: "Blessed By PBA",
-    github: "https://github.com/laibarif/Rajeev_Project",
+    // github: "https://github.com/laibarif/Rajeev_Project",
     link: "https://blessedbypba.org/",
     image: greentrust,
     content:
